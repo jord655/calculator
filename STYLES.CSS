@@ -1,0 +1,45 @@
+
+#keys{
+ display: grid;
+ grid-template-columns: repeat(4,1fr);
+ justify-content: space-between;
+
+}
+input{
+    font-size: 80px;
+    align-content: center;
+    align-items: center;
+    width: 1300px;
+    border-radius: 25px;
+    height:150px ;
+    background-color: black;
+    color: beige;
+    border: none;
+
+}
+ button{
+     font-size: 50px;
+     border-radius: 500px;
+     background-color: orangered;
+     
+
+ }
+ #calculator{
+    background-color: black;
+    border-radius: 40px;
+ }
+ .plus{
+    background-color: yellow;
+ }
+ .oppo{
+    background-color: yellow;
+ }
+ .times{
+    background-color: yellow;
+ }
+ .divide{
+    background-color: yellow;
+ }
+ .clear{
+    background-color: red;
+ }

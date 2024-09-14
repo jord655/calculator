@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jordan's first calculator</title>
+    <link rel="stylesheet" href="STYLES.CSS">
+</head>
+<body>
+    <div id="calculator">
+        <input id="display" readonly >
+        <div id="keys">
+            <button onclick="appendTO('+')" class="plus">+</button>
+            <button onclick="appendTO('1')">1</button>
+            <button onclick="appendTO('2')">2</button>
+            <button onclick="appendTO('3')">3</button>
+            <button onclick="appendTO('-')" class="oppo">-</button>
+            <button onclick="appendTO('4')">4</button>
+            <button onclick="appendTO('5')">5</button>
+            <button onclick="appendTO('6')">6</button>
+            <button onclick="appendTO('*')"class="times">*</button>
+            <button onclick="appendTO('7')">7</button>
+            <button onclick="appendTO('8')">8</button>
+            <button onclick="appendTO('9')">9</button>
+            <button onclick="appendTO('/')" class="divide">/</button>
+            <button onclick="appendTO('0')">0</button>
+            <button onclick="appendTO('.')">.</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="clearTO()" class="clear">c</button>
+
+        </div>
+    </div>
+    <script src="scripts/calculator.js">
+
+    </script>
+</body>
+</html>
